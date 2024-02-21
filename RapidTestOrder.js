@@ -4,8 +4,8 @@ class RapidTestOrder {
       WELCOMING: () => {
         let aReturn = [];
         this.stateCur = this.OrderState.RESERVING;
-        aReturn.push("Welcome to Rich's Acton Rapid Test.");
-        aReturn.push("Would you like to reserve a rapid test kit?");
+        aReturn.push("Welcome to Popeyes.");
+        aReturn.push("Would you like to place an order of our famous Louisiana chicken?");
         return aReturn;
       },
       RESERVING: (sInput) => {
